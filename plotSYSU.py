@@ -21,6 +21,7 @@ def plot(title, filePath, table):
     successAverage = np.average(success, axis=0)
     failAverage = np.average(fail, axis=0)
 
+    # font needs to be figured for Chinese characters
     font = fontConfig.FontProperties(fname='./PingFang.ttc')
 
     fig, ax = plt.subplots()
